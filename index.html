@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biodata fakka</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> -->
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo">
+          <a href="#">Fakka</a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <!-- <li><a href="#portfolio">Portfolio</a></li> -->
+             <li><a href="#Portofolio">Portofolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <div id="home" class="hero">
+          <div class="hero-image">
+            <img
+              src="foto1.jpg"
+              alt="Foto Profil [Nama Anda]"
+            />
+          </div>
+          <div class="hero-content">
+            <h1>Hai, Saya Ghani Fakka Rindra!</h1>
+            <p>
+              Saya adalah seorang siswa SMK N 1 BANJARNEGARA yang memiliki
+              minat dalam PENGEMBANGAN PERANGKAT LUNAK DAN GIM.
+            </p>
+            <!-- <a href="CV.pdf" download class="btn">Download CV</a> -->
+          </div>
+        </div>
+
+        <div id="about" class="about">
+          <h2>Tentang Saya</h2>
+          <div class="about-content">
+            <p>
+              Saya, siswa SMK N 1 BANJARNEGARA kelahiran Banjarnegara, 5
+              Agustus 2008, memiliki minat kuat di bidang WEB,
+              khususnya pengembangan perangkat lunak dan gim. Tujuan
+              saya adalah menjadi ahli di bidang tersebut, dengan terus belajar
+              dan mengembangkan diri. Saya aktif dalam kegiatan sekolah terkait,
+              dan menjunjung tinggi nilai ketekunan.
+            </p>
+            <div class="skills">
+              <h3>Keterampilan</h3>
+              <ul>
+                <li>Saya bisa mennguakan HTML</li>
+                <li>Saya bisa mennguakan CSS</li>
+                <li>Saya bisa mennguakan JS</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div id="education" class="education">
+          <h2>Pendidikan</h2>
+          <div class="education-grid">
+            <div class="education-item">
+              <h3>SDN 1 KRANDEGAN</h3>
+              <p>Tahun</p>
+              <p>2015-2021</p>
+            </div>
+            <div class="education-item">
+              <h3>SMPN 1 BANJARNEGARA</h3>
+              <p>Tahun</p>
+              <p>2021-2024</p>
+            </div>
+            <div class="education-item">
+              <h3>SMKN 1 BAWANG</h3>
+              <p>Jurusan RPL, Tahun</p>
+              <p>2024-2027</p>
+            </div>
+          </div>
+        </div>
+        <div id="Portofolio" class="Portofolio">
+                <h2>Portofolio</h2>
+                <div class="portfolio-grid">
+                    <div class="project-item">
+                        <img src="fotosrl.png" alt="Proyek 1">
+                        <h3>web seruligmas</h3>
+                        <p>Sebuah web serulingmas</p>
+                        <a href="" class="btn">Detail</a>
+                    </div>
+                    <div class="project-item">
+                        <img src="packaging.png" alt="Proyek 2">
+                        <h3>PACKAGING</h3>
+                        <p>Sebuah desain wadah kopi</p>
+                        <a target="_blank" href="https://www.figma.com/proto/5SI19VRIIV2hkyzfQuXRvI/Untittled?node-id=2-3&starting-point-node-id=2%3A3" class="btn">Detail</a> 
+                    </div>
+                </div>
+            </div>
+        <div id="contact" class="contact">
+          <h2>Kontak</h2>
+          <div class="contact-wrapper">
+            <div class="contact-left">
+              <h3>Kirim Pesan</h3>
+              <form
+                action="mailto:daffanuzul280@gmail.com"
+                method="post"
+                enctype="text/plain"
+              >
+                <div class="form-group">
+                  <label for="name">Nama:</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Nama Anda"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Email Anda"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="message">Pesan:</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    placeholder="Tulis pesan Anda..."
+                    required
+                  ></textarea>
+                </div>
+                <div class="form-group">
+                  <button type="submit" class="btn">Kirim Pesan</button>
+                </div>
+              </form>
+            </div>
+
+           
+          
+          
+        </div>
+      </main>
+
+      <footer>
+        <p>&copy; 2025 GHANI FAKKA RINDRA.</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
